@@ -1,3 +1,6 @@
+Docker container with openldap and syslog forwarding
+Based on Alpine with a size of 15MB
+
 NOTE: Example assumes you have a "/ldap" with your container specific data!
 Change as needed with the SRC data that you are mounting into the container.
 Example named data is defined in the example subdir.
