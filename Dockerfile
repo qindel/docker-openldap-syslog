@@ -35,3 +35,4 @@ COPY entrypoint.sh /
 COPY rsyslog.conf /etc/rsyslog.conf
 
 ENTRYPOINT ["/entrypoint.sh"]
+STOPSIGNAL SIGINT
